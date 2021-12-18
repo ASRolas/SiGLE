@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from app.views import fhome, flogin, fconfig
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', fhome),
+    path('login/', flogin),
+    path('config/', fconfig)
 ]
