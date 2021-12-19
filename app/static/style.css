@@ -30,7 +30,7 @@ body{
 }
 
 .transp{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.65);
 }
 
 .e{
@@ -38,6 +38,7 @@ body{
     width:10%;
     color: blue;
     position: absolute;
+    display: block;
 }
 
 .c{
@@ -61,13 +62,33 @@ body{
     width:800px;
 }
 
-.r{
+.rv{
     position: absolute;
     right:0px;
     top:0px;
     width:250px;
     height:100%;
-    color: red;
+    color: blue;
     background: white;
     float: right;
+}
+
+.r{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    width:100%;
+    height:98%;
+    color: red;
+    background: white;
+}
+
+.v{
+    width:100%;
+}
+
+.ss{
+    font-size: xxx-large;
+    color:red;
+    margin-top: 70px;
 }
