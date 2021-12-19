@@ -1,6 +1,10 @@
 *{margin: 0px; padding: 0px;}
 
-body{background-color: #eee;}
+body{
+    background-color: #eee;
+    background-image: url(img/pic4.png);
+    width:auto;
+    }
 
 .row{margin: 0px; padding: 0px;}
 .small{font-size: 13px;}
@@ -16,3 +20,54 @@ body{background-color: #eee;}
 .admin-form-body{padding: 15px;}
 .admin-form-body .form-control{border-radius: 0px; padding: 20px 10px 20px 10px;}
 .admin-form-body .btn-outline-primary{border-radius: 0px;}
+
+
+.mae{
+    height:500px;
+    width:1000px;
+    margin: auto;
+    margin-top:200px;
+}
+
+.transp{
+    background: rgba(0,0,0,0.5);
+}
+
+.e{
+    height:500px;
+    width:10%;
+    color: blue;
+    position: absolute;
+}
+
+.c{
+        margin-right:0px;
+    padding-right:0px;
+        height:200px;
+}
+
+.d{
+    width:800px;
+    color: blue;
+
+    float: right;
+}
+
+.b{
+    margin-bottom:0px;
+    padding-bottom:0px;
+    margin-top:35px;
+    height:265px;
+    width:800px;
+}
+
+.r{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width:250px;
+    height:100%;
+    color: red;
+    background: white;
+    float: right;
+}
